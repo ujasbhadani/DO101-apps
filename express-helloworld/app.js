@@ -1,4 +1,4 @@
-var express = require('express');
+import express from 'express';
 app = express();
 
 app.get('/', function (req, res) {
