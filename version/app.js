@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 3 of the app.' + '\n';
+    response = 'My 1st project deploy by Redhat OpenShif Container Platform with webhooks.' + '\n';
 
     //send the response to the client
     res.send(response);
